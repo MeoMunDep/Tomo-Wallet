@@ -176,7 +176,7 @@ docker start TomoWallet-container
 ### 🔹 If installed via Git
 
 ```bash
-cd bot-folder
+cd TomoWallet
 git pull origin main
 npm install
 ```
