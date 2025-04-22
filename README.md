@@ -97,7 +97,6 @@ Explanation of each parameter:
 | `timeToRestartAllAccounts`    | `number`           | `300`             | Time (in seconds) before the bot restarts all accounts.                           |
 | `howManyAccountsRunInOneTime` | `number`           | `100`             | Number of accounts running simultaneously.                                        |
 | `doTasks`                     | `boolean`          | `true`            | Enable/disable task execution (`false` means the bot won’t perform tasks).        |
-|                               |
 
 ### 2. `datas.txt` - 🗂️ User Data
 
