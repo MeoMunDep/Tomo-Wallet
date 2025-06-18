@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  my_bot:
+    build:
+      context: .
+    container_name: TomoWallet
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=production
+    stdin_open: true
+    tty: true
